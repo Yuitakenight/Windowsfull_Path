@@ -2,7 +2,6 @@
 #include "detours.h"
 #include <iostream>
 #include <tlhelp32.h> 
-
 #pragma comment(lib, "detours.lib") 
 
 VOID __declspec(dllexport)myfix()
